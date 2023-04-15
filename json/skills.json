@@ -1,0 +1,19 @@
+{
+  "skills": [
+    {
+      "title": "Android Development",
+      "description": "Java, Kotlin, RxJava & RxKotlin",
+      "percentage": "90"
+    },
+    {
+      "title": "Android Design Patterns",
+      "description": "MVVM & MVP",
+      "percentage": "95"
+    },
+    {
+      "title": "Android Testing",
+      "description": "Expresso, Junit & Mockito",
+      "percentage": "80"
+    }
+  ]
+}
