@@ -9,5 +9,5 @@ xhttp.onreadystatechange = function() {
 };
 
 // Open the file and send the request
-xhttp.open("GET", "/components/navbar/navbar.html", true);
+xhttp.open("GET", "https://assets.teogor.dev/components//navbar/navbar.html", true);
 xhttp.send();
