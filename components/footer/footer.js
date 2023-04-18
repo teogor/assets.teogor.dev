@@ -7,6 +7,10 @@ footerXhttp.onreadystatechange = function () {
     if (this.readyState === 4 && this.status === 200) {
         // Insert the HTML content of the response into the #footer element
         document.getElementById("footer").innerHTML = this.responseText;
+        
+        // Update the current year
+        const currentYear = new Date().getFullYear();
+        document.getElementById('year').textContent = currentYear.toString();
     }
 };
 
