@@ -5,13 +5,13 @@ const xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function () {
     // Check if the readyState is 4 and the status is 200, indicating that the request is complete and successful
     if (this.readyState === 4 && this.status === 200) {
-        // Insert the HTML content of the response into the #navbar element
-        document.getElementById("navbar").innerHTML = this.responseText;
+        // Insert the HTML content of the response into the #footer element
+        document.getElementById("footer").innerHTML = this.responseText;
     }
 };
 
 // Open a GET request to the specified URL for the navbar HTML file
-xhttp.open("GET", "https://assets.teogor.dev/components/navbar/navbar.html", true);
+xhttp.open("GET", "https://assets.teogor.dev/components/footer/footer.html", true);
 
 // Send the request
 xhttp.send();
