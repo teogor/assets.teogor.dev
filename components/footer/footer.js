@@ -10,7 +10,7 @@ footerXhttp.onreadystatechange = function () {
         
         // Update the current year
         const currentYear = new Date().getFullYear();
-        document.getElementById('year').textContent = currentYear.toString();
+        document.getElementById("year").textContent = currentYear.toString();
     }
 };
 
